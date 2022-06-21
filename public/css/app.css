@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Lobster+Two:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+.logo {
+    font-family: "Lobster Two", cursive !important;
+    font-weight: 700;
+}
+
+/* hero section css start */
+
+.hero_main_div {
+    /* background-image: url(https://i.ibb.co/HGdrK9X/marquee-hp-wide2.webp); */
+    min-height: 500px;
+    background: url(https://i.ibb.co/HGdrK9X/marquee-hp-wide2.webp) no-repeat
+        right;
+    background-size: auto;
+}
+.slogan {
+    font-family: "Anton", sans-serif;
+}
+.banner_short_about {
+    max-width: 400px;
+}
+
+/* hero section css end */
+
+/* Contact section start */
+.text-color-update {
+    color: #6c6c6c;
+}
+.text-color-update-2 {
+    color: #e76f51;
+}
+.text-color-update-3 {
+    color: #e0e0e0;
+}
+/* Contact section end */
+
+/* footer section start */
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 992px) {
+    #footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}
+/* footer section end */
+
+/* comfort zone start */
+.comfortZone_main_div {
+    background-color: #6c6c6c;
+}
+.comfort_image {
+    float: right;
+    margin-top: -100px;
+}
+/* comfort zone end */
+
+/* other  */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.heading {
+    font-size: 70px;
+    font-weight: 1000;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+@media only screen and (max-width: 992px) {
+    .heading {
+        font-size: 40px;
+        font-weight: 1000;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-left: -17px !important;
+    }
+}
